@@ -1,0 +1,481 @@
+/target:library
+/out:Temp/FishNet.Runtime.dll
+/nowarn:0169
+/nowarn:0649
+/unsafe
+/debug:portable
+/optimize+
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/PlayerScriptAssemblies/UnityEngine.UI.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
+/reference:Assets/FishNet/Plugins/CodeAnalysis/FishNet.CodeAnalysis.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2019.4.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
+/define:UNITY_2019_4_37
+/define:UNITY_2019_4
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:ENABLE_VIDEO
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_WIN
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_STANDARD_2_0
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:FISHNET
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+Assets\FishNet\Runtime\Authenticating\Authenticator.cs
+Assets\FishNet\Runtime\Broadcast\Helping\BroadcastHelper.cs
+Assets\FishNet\Runtime\Broadcast\IBroadcast.cs
+Assets\FishNet\Runtime\Connection\Buffer.cs
+Assets\FishNet\Runtime\Connection\NetworkConnection.Buffer.cs
+Assets\FishNet\Runtime\Connection\NetworkConnection.PingPong.cs
+Assets\FishNet\Runtime\Connection\NetworkConnection.QOL.cs
+Assets\FishNet\Runtime\Connection\NetworkConnection.cs
+Assets\FishNet\Runtime\Documenting\Attributes.cs
+Assets\FishNet\Runtime\Editor\CodeStripping.cs
+Assets\FishNet\Runtime\Editor\Configuring\Configuration.cs
+Assets\FishNet\Runtime\Editor\Configuring\ConfigurationData.cs
+Assets\FishNet\Runtime\Editor\Configuring\ConfigurationEditor.cs
+Assets\FishNet\Runtime\Editor\Constants.cs
+Assets\FishNet\Runtime\Editor\DefaultPrefabsFinder.cs
+Assets\FishNet\Runtime\Editor\Finding.cs
+Assets\FishNet\Runtime\Editor\PlayModeTracker.cs
+Assets\FishNet\Runtime\Editor\PrefabProcessor.cs
+Assets\FishNet\Runtime\Editor\ScriptingDefines.cs
+Assets\FishNet\Runtime\InstanceFinder.cs
+Assets\FishNet\Runtime\Managing\Client\ClientManager.Broadcast.cs
+Assets\FishNet\Runtime\Managing\Client\ClientManager.cs
+Assets\FishNet\Runtime\Managing\Client\Editor\ClientManagerEditor.cs
+Assets\FishNet\Runtime\Managing\Client\Object\ClientObjects.RpcLinks.cs
+Assets\FishNet\Runtime\Managing\Client\Object\ClientObjects.cs
+Assets\FishNet\Runtime\Managing\Client\Object\ObjectCaching.cs
+Assets\FishNet\Runtime\Managing\Debugging\DebugManager.cs
+Assets\FishNet\Runtime\Managing\Debugging\ParseLogger.cs
+Assets\FishNet\Runtime\Managing\Editor\NetworkManagerEditor.cs
+Assets\FishNet\Runtime\Managing\Logging\LoggingConfiguration.cs
+Assets\FishNet\Runtime\Managing\Logging\LoggingType.cs
+Assets\FishNet\Runtime\Managing\NetworkManager.Logging.cs
+Assets\FishNet\Runtime\Managing\NetworkManager.Pro.cs
+Assets\FishNet\Runtime\Managing\NetworkManager.QOL.cs
+Assets\FishNet\Runtime\Managing\NetworkManager.cs
+Assets\FishNet\Runtime\Managing\Object\DualPrefab.cs
+Assets\FishNet\Runtime\Managing\Object\ManagedObjects.cs
+Assets\FishNet\Runtime\Managing\Object\PrefabObjects\DefaultPrefabObjects.cs
+Assets\FishNet\Runtime\Managing\Object\PrefabObjects\DualPrefabObjects.cs
+Assets\FishNet\Runtime\Managing\Object\PrefabObjects\PrefabObjects.cs
+Assets\FishNet\Runtime\Managing\Object\PrefabObjects\SinglePrefabObjects.cs
+Assets\FishNet\Runtime\Managing\ObserverManager.cs
+Assets\FishNet\Runtime\Managing\Scened\Broadcast\SceneBroadcasts.cs
+Assets\FishNet\Runtime\Managing\Scened\Events\ClientPresenceChangeEventArgs.cs
+Assets\FishNet\Runtime\Managing\Scened\Events\LoadSceneEventArgs.cs
+Assets\FishNet\Runtime\Managing\Scened\Events\UnloadSceneEventArgs.cs
+Assets\FishNet\Runtime\Managing\Scened\LoadUnloadDatas\LoadOptions.cs
+Assets\FishNet\Runtime\Managing\Scened\LoadUnloadDatas\LoadParams.cs
+Assets\FishNet\Runtime\Managing\Scened\LoadUnloadDatas\LoadQueueData.cs
+Assets\FishNet\Runtime\Managing\Scened\LoadUnloadDatas\ReplaceOption.cs
+Assets\FishNet\Runtime\Managing\Scened\LoadUnloadDatas\SceneLoadData.cs
+Assets\FishNet\Runtime\Managing\Scened\LoadUnloadDatas\SceneScopeTypes.cs
+Assets\FishNet\Runtime\Managing\Scened\LoadUnloadDatas\SceneUnloadData.cs
+Assets\FishNet\Runtime\Managing\Scened\LoadUnloadDatas\UnloadOptions.cs
+Assets\FishNet\Runtime\Managing\Scened\LoadUnloadDatas\UnloadParams.cs
+Assets\FishNet\Runtime\Managing\Scened\LoadUnloadDatas\UnloadQueueData.cs
+Assets\FishNet\Runtime\Managing\Scened\SceneLookupData.cs
+Assets\FishNet\Runtime\Managing\Scened\SceneManager.cs
+Assets\FishNet\Runtime\Managing\Scened\SceneSpawner.cs
+Assets\FishNet\Runtime\Managing\Server\ClientConnectionBroadcast.cs
+Assets\FishNet\Runtime\Managing\Server\Editor\ServerManagerEditor.cs
+Assets\FishNet\Runtime\Managing\Server\Object\ServerObjects.Observers.cs
+Assets\FishNet\Runtime\Managing\Server\Object\ServerObjects.Parsing.cs
+Assets\FishNet\Runtime\Managing\Server\Object\ServerObjects.cs
+Assets\FishNet\Runtime\Managing\Server\ServerManager.Broadcast.cs
+Assets\FishNet\Runtime\Managing\Server\ServerManager.QOL.cs
+Assets\FishNet\Runtime\Managing\Server\ServerManager.RpcLinks.cs
+Assets\FishNet\Runtime\Managing\Server\ServerManager.cs
+Assets\FishNet\Runtime\Managing\Timing\Editor\TimeManagerEditor.cs
+Assets\FishNet\Runtime\Managing\Timing\MovingAverage.cs
+Assets\FishNet\Runtime\Managing\Timing\PhysicsMode.cs
+Assets\FishNet\Runtime\Managing\Timing\TickRounding.cs
+Assets\FishNet\Runtime\Managing\Timing\TimeManager.cs
+Assets\FishNet\Runtime\Managing\Transporting\SplitReader.cs
+Assets\FishNet\Runtime\Managing\Transporting\TransportManager.QOL.cs
+Assets\FishNet\Runtime\Managing\Transporting\TransportManager.cs
+Assets\FishNet\Runtime\Managing\Utility\Utility.cs
+Assets\FishNet\Runtime\Object\Attributes.cs
+Assets\FishNet\Runtime\Object\ChangedTransformProperties.cs
+Assets\FishNet\Runtime\Object\Delegates.cs
+Assets\FishNet\Runtime\Object\Helping\Hashing.cs
+Assets\FishNet\Runtime\Object\Helping\RpcLink.cs
+Assets\FishNet\Runtime\Object\Helping\RpcType.cs
+Assets\FishNet\Runtime\Object\Helping\StaticShortcuts.cs
+Assets\FishNet\Runtime\Object\NetworkBehaviour.Callbacks.cs
+Assets\FishNet\Runtime\Object\NetworkBehaviour.Logging.cs
+Assets\FishNet\Runtime\Object\NetworkBehaviour.Prediction.cs
+Assets\FishNet\Runtime\Object\NetworkBehaviour.QOL.cs
+Assets\FishNet\Runtime\Object\NetworkBehaviour.RPCLinks.cs
+Assets\FishNet\Runtime\Object\NetworkBehaviour.RPCs.cs
+Assets\FishNet\Runtime\Object\NetworkBehaviour.SyncTypes.cs
+Assets\FishNet\Runtime\Object\NetworkBehaviour.cs
+Assets\FishNet\Runtime\Object\NetworkObject.Broadcast.cs
+Assets\FishNet\Runtime\Object\NetworkObject.Callbacks.cs
+Assets\FishNet\Runtime\Object\NetworkObject.Observers.cs
+Assets\FishNet\Runtime\Object\NetworkObject.QOL.cs
+Assets\FishNet\Runtime\Object\NetworkObject.ReferenceIds.cs
+Assets\FishNet\Runtime\Object\NetworkObject.RpcLinks.cs
+Assets\FishNet\Runtime\Object\NetworkObject.SyncTypes.cs
+Assets\FishNet\Runtime\Object\NetworkObject.cs
+Assets\FishNet\Runtime\Object\Prediction\Attributes.cs
+Assets\FishNet\Runtime\Object\Prediction\Delegates.cs
+Assets\FishNet\Runtime\Object\Synchronizing\ICustomSync.cs
+Assets\FishNet\Runtime\Object\Synchronizing\ISyncObject.cs
+Assets\FishNet\Runtime\Object\Synchronizing\MissingObjectPacketLength.cs
+Assets\FishNet\Runtime\Object\Synchronizing\ReadPermissions.cs
+Assets\FishNet\Runtime\Object\Synchronizing\SecretMenu\SyncVarExtensions.cs
+Assets\FishNet\Runtime\Object\Synchronizing\Settings.cs
+Assets\FishNet\Runtime\Object\Synchronizing\SyncBase.cs
+Assets\FishNet\Runtime\Object\Synchronizing\SyncDictionary.cs
+Assets\FishNet\Runtime\Object\Synchronizing\SyncDictionaryOperation.cs
+Assets\FishNet\Runtime\Object\Synchronizing\SyncHashSetOperation.cs
+Assets\FishNet\Runtime\Object\Synchronizing\SyncHashset.cs
+Assets\FishNet\Runtime\Object\Synchronizing\SyncList.cs
+Assets\FishNet\Runtime\Object\Synchronizing\SyncListOperation.cs
+Assets\FishNet\Runtime\Object\Synchronizing\SyncVar.cs
+Assets\FishNet\Runtime\Object\Synchronizing\WritePermissions.cs
+Assets\FishNet\Runtime\Object\TransformProperties.cs
+Assets\FishNet\Runtime\Observing\Conditions\DistanceCondition.cs
+Assets\FishNet\Runtime\Observing\Conditions\Editor\MatchConditionEditor.cs
+Assets\FishNet\Runtime\Observing\Conditions\MatchCondition.cs
+Assets\FishNet\Runtime\Observing\Conditions\SceneCondition.cs
+Assets\FishNet\Runtime\Observing\Conditions\ServerOnlyCondition.cs
+Assets\FishNet\Runtime\Observing\NetworkObserver.cs
+Assets\FishNet\Runtime\Observing\ObserverCondition.cs
+Assets\FishNet\Runtime\Observing\ObserverStateChange.cs
+Assets\FishNet\Runtime\Plugins\ColliderRollback\Scripts\ColliderRollback.cs
+Assets\FishNet\Runtime\Plugins\ColliderRollback\Scripts\PreciseTick.cs
+Assets\FishNet\Runtime\Plugins\ColliderRollback\Scripts\RollbackManager.cs
+Assets\FishNet\Runtime\Plugins\Yak\Core\ClientSocket.cs
+Assets\FishNet\Runtime\Plugins\Yak\Core\CommonSocket.cs
+Assets\FishNet\Runtime\Plugins\Yak\Core\LocalPacket.cs
+Assets\FishNet\Runtime\Plugins\Yak\Core\ServerSocket.cs
+Assets\FishNet\Runtime\Plugins\Yak\Yak.cs
+Assets\FishNet\Runtime\Serializing\AutoPackType.cs
+Assets\FishNet\Runtime\Serializing\Helping\Attributes.cs
+Assets\FishNet\Runtime\Serializing\Helping\Broadcasts.cs
+Assets\FishNet\Runtime\Serializing\Helping\Comparers.cs
+Assets\FishNet\Runtime\Serializing\Helping\Quaternion32.cs
+Assets\FishNet\Runtime\Serializing\Helping\Quaternion64.cs
+Assets\FishNet\Runtime\Serializing\Helping\QuaternionConverter.cs
+Assets\FishNet\Runtime\Serializing\Helping\ValueConversions.cs
+Assets\FishNet\Runtime\Serializing\Reader.cs
+Assets\FishNet\Runtime\Serializing\ReaderExtensions.cs
+Assets\FishNet\Runtime\Serializing\ReaderPool.cs
+Assets\FishNet\Runtime\Serializing\TransformPackingData.cs
+Assets\FishNet\Runtime\Serializing\Writer.cs
+Assets\FishNet\Runtime\Serializing\WriterExtensions.cs
+Assets\FishNet\Runtime\Serializing\WriterPool.cs
+Assets\FishNet\Runtime\Transporting\Channels.cs
+Assets\FishNet\Runtime\Transporting\ConnectionStates.cs
+Assets\FishNet\Runtime\Transporting\EventStructures.cs
+Assets\FishNet\Runtime\Transporting\IPAddressType.cs
+Assets\FishNet\Runtime\Transporting\NetworkReaderLoop.cs
+Assets\FishNet\Runtime\Transporting\NetworkWriterLoop.cs
+Assets\FishNet\Runtime\Transporting\PacketId.cs
+Assets\FishNet\Runtime\Transporting\Transport.cs
+Assets\FishNet\Runtime\Transporting\Transports\Multipass\Multipass.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\Core\ClientSocket.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\Core\CommonSocket.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\Core\ServerSocket.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\Core\Supporting.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\BaseChannel.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\ConnectionRequest.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\INetEventListener.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\Layers\Crc32cLayer.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\Layers\PacketLayerBase.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\Layers\XorEncryptLayer.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\NatPunchModule.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\NativeSocket.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\NetConstants.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\NetDebug.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\NetManager.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\NetPacket.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\NetPacketPool.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\NetPeer.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\NetSocket.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\NetStatistics.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\NetUtils.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\ReliableChannel.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\SequencedChannel.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\Utils\CRC32C.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\Utils\FastBitConverter.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\Utils\INetSerializable.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\Utils\NetDataReader.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\Utils\NetDataWriter.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\Utils\NetPacketProcessor.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\Utils\NetSerializer.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\Utils\NtpPacket.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\LiteNetLib\Utils\NtpRequest.cs
+Assets\FishNet\Runtime\Transporting\Transports\Tugboat\Tugboat.cs
+Assets\FishNet\Runtime\Utility\ApplicationState.cs
+Assets\FishNet\Runtime\Utility\Constants.cs
+Assets\FishNet\Runtime\Utility\DDOLFinder.cs
+Assets\FishNet\Runtime\Utility\Editor\MiscMenu.cs
+Assets\FishNet\Runtime\Utility\Editor\SceneDrawer.cs
+Assets\FishNet\Runtime\Utility\Extension\Collection.cs
+Assets\FishNet\Runtime\Utility\Extension\Dictionary.cs
+Assets\FishNet\Runtime\Utility\Extension\Enum.cs
+Assets\FishNet\Runtime\Utility\Extension\Math.cs
+Assets\FishNet\Runtime\Utility\Extension\Object.cs
+Assets\FishNet\Runtime\Utility\Extension\Scene.cs
+Assets\FishNet\Runtime\Utility\Performance\ByteArrayPool.cs
+Assets\FishNet\Runtime\Utility\Performance\ListCache.cs
+Assets\FishNet\Runtime\Utility\Performance\Transform.cs
+Assets\FishNet\Runtime\Utility\SceneAttribute.cs
