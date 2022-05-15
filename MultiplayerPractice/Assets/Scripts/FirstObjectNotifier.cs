@@ -14,6 +14,8 @@ public class FirstObjectNotifier : NetworkBehaviour
             NetworkObject nob = LocalConnection.FirstObject;
             if (nob == NetworkObject)
                 OnFirstObjectSpawned?.Invoke(transform);
+            
+            Debug.Log("is this script the owner?" + Owner + "for owner" + OwnerId);
         }
     }
 }

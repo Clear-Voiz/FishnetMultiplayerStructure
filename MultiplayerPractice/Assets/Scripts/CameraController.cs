@@ -12,7 +12,7 @@ public class CameraController : MonoBehaviour
     
     private void OnDisable()
     {
-        FirstObjectNotifier.OnFirstObjectSpawned += FirstObjectNotifier_OnFirstObjectSpawned;
+        FirstObjectNotifier.OnFirstObjectSpawned -= FirstObjectNotifier_OnFirstObjectSpawned;
     }
 
     private void FirstObjectNotifier_OnFirstObjectSpawned(Transform obj)

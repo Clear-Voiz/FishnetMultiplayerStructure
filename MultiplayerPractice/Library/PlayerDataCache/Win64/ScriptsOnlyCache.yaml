@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Animating
     - CameraController
+    - Conjurer
     - FirstObjectNotifier
     - FishNet.Discovery.NetworkDiscovery
     - FishNet.Discovery.NetworkDiscoveryHUD
@@ -116,85 +117,87 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11624}
     - Class: 114
-      Script: {instanceID: 11738}
+      Script: {instanceID: 11666}
     - Class: 114
-      Script: {instanceID: 11742}
+      Script: {instanceID: 11740}
     - Class: 114
-      Script: {instanceID: 11810}
+      Script: {instanceID: 11744}
     - Class: 114
-      Script: {instanceID: 11812}
+      Script: {instanceID: 11780}
     - Class: 114
-      Script: {instanceID: 11842}
+      Script: {instanceID: 11814}
     - Class: 114
-      Script: {instanceID: 11872}
+      Script: {instanceID: 11816}
     - Class: 114
-      Script: {instanceID: 11938}
+      Script: {instanceID: 11846}
     - Class: 114
-      Script: {instanceID: 12000}
+      Script: {instanceID: 11876}
     - Class: 114
-      Script: {instanceID: 12060}
+      Script: {instanceID: 11942}
     - Class: 114
-      Script: {instanceID: 12076}
+      Script: {instanceID: 12004}
     - Class: 114
-      Script: {instanceID: 12120}
+      Script: {instanceID: 12064}
     - Class: 114
-      Script: {instanceID: 12128}
+      Script: {instanceID: 12080}
     - Class: 114
-      Script: {instanceID: 12290}
+      Script: {instanceID: 12124}
     - Class: 114
-      Script: {instanceID: 12304}
+      Script: {instanceID: 12132}
     - Class: 114
-      Script: {instanceID: 12428}
+      Script: {instanceID: 12294}
     - Class: 114
-      Script: {instanceID: 12532}
+      Script: {instanceID: 12308}
     - Class: 114
-      Script: {instanceID: 12610}
+      Script: {instanceID: 12432}
     - Class: 114
-      Script: {instanceID: 12648}
+      Script: {instanceID: 12504}
     - Class: 114
-      Script: {instanceID: 12662}
+      Script: {instanceID: 12538}
     - Class: 114
-      Script: {instanceID: 12726}
+      Script: {instanceID: 12616}
     - Class: 114
-      Script: {instanceID: 12774}
+      Script: {instanceID: 12654}
     - Class: 114
-      Script: {instanceID: 12862}
+      Script: {instanceID: 12668}
     - Class: 114
-      Script: {instanceID: 12944}
+      Script: {instanceID: 12732}
     - Class: 114
-      Script: {instanceID: 12956}
+      Script: {instanceID: 12780}
     - Class: 114
-      Script: {instanceID: 13004}
+      Script: {instanceID: 12868}
     - Class: 114
-      Script: {instanceID: 13034}
+      Script: {instanceID: 12950}
     - Class: 114
-      Script: {instanceID: 13196}
+      Script: {instanceID: 12962}
     - Class: 114
-      Script: {instanceID: 13226}
+      Script: {instanceID: 13010}
     - Class: 114
-      Script: {instanceID: 13242}
+      Script: {instanceID: 13040}
     - Class: 114
-      Script: {instanceID: 13440}
+      Script: {instanceID: 13202}
     - Class: 114
-      Script: {instanceID: 13442}
+      Script: {instanceID: 13232}
     - Class: 114
-      Script: {instanceID: 13478}
+      Script: {instanceID: 13248}
     - Class: 114
-      Script: {instanceID: 13526}
+      Script: {instanceID: 13446}
     - Class: 114
-      Script: {instanceID: 13538}
+      Script: {instanceID: 13448}
     - Class: 114
-      Script: {instanceID: 13640}
+      Script: {instanceID: 13484}
     - Class: 114
-      Script: {instanceID: 13672}
+      Script: {instanceID: 13532}
     - Class: 114
-      Script: {instanceID: 13726}
+      Script: {instanceID: 13544}
     - Class: 114
-      Script: {instanceID: 13752}
+      Script: {instanceID: 13646}
     - Class: 114
-      Script: {instanceID: 20512}
+      Script: {instanceID: 13678}
     - Class: 114
-      Script: {instanceID: 20514}
+      Script: {instanceID: 13732}
+    - Class: 114
+      Script: {instanceID: 13758}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -376,6 +379,12 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 6905fd201202f770983241ea5d694fc4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Conjurer
+  - hash:
+      serializedVersion: 2
       Hash: 36ea5b797245d53298721c66d404ed50
     assemblyName: FishNet.Generated.dll
     namespaceName: FishNet.Component.Prediction
@@ -428,6 +437,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 1c8f94c473e89a47a75bdfa791cf4061
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: FishNet.Discovery
+    className: NetworkDiscovery
   - hash:
       serializedVersion: 2
       Hash: 6e7ed17ff44e1d89820b0ee89584f32e
@@ -674,6 +689,12 @@ ScriptsOnlyBuild:
     assemblyName: FishNet.Runtime.dll
     namespaceName: FishNet.Managing.Observing
     className: ObserverManager
+  - hash:
+      serializedVersion: 2
+      Hash: 681b5f9be6f57e5a7b20908e503986d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: FishNet.Discovery
+    className: NetworkDiscoveryHUD
   - hash:
       serializedVersion: 2
       Hash: 204ea02909ea3f738dafe3ff633d2a93
@@ -1190,18 +1211,6 @@ ScriptsOnlyBuild:
     assemblyName: FishNet.Generated.dll
     namespaceName: FishNet.Component.Prediction
     className: PredictedObject
-  - hash:
-      serializedVersion: 2
-      Hash: 1c8f94c473e89a47a75bdfa791cf4061
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: FishNet.Discovery
-    className: NetworkDiscovery
-  - hash:
-      serializedVersion: 2
-      Hash: 681b5f9be6f57e5a7b20908e503986d3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: FishNet.Discovery
-    className: NetworkDiscoveryHUD
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
