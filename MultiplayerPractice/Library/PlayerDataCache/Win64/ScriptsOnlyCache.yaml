@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - NameDisplayer
     - NameSetterCanvas
     - PlayerNameTracker
+    - Shoot
     Cinemachine.dll:
     - Cinemachine.Cinemachine3rdPersonFollow
     - Cinemachine.CinemachineBrain
@@ -177,27 +178,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13202}
     - Class: 114
-      Script: {instanceID: 13232}
+      Script: {instanceID: 13230}
     - Class: 114
-      Script: {instanceID: 13248}
+      Script: {instanceID: 13234}
     - Class: 114
-      Script: {instanceID: 13446}
+      Script: {instanceID: 13250}
     - Class: 114
       Script: {instanceID: 13448}
     - Class: 114
-      Script: {instanceID: 13484}
+      Script: {instanceID: 13450}
     - Class: 114
-      Script: {instanceID: 13532}
+      Script: {instanceID: 13486}
     - Class: 114
-      Script: {instanceID: 13544}
+      Script: {instanceID: 13534}
     - Class: 114
-      Script: {instanceID: 13646}
+      Script: {instanceID: 13546}
     - Class: 114
-      Script: {instanceID: 13678}
+      Script: {instanceID: 13648}
     - Class: 114
-      Script: {instanceID: 13732}
+      Script: {instanceID: 13680}
     - Class: 114
-      Script: {instanceID: 13758}
+      Script: {instanceID: 13734}
+    - Class: 114
+      Script: {instanceID: 13760}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -959,6 +962,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine.PostFX
     className: CinemachineVolumeSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 6e7ed17ff44e1d89820b0ee89584f32e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Shoot
   - hash:
       serializedVersion: 2
       Hash: 6e7ed17ff44e1d89820b0ee89584f32e
